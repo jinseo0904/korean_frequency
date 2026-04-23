@@ -9,6 +9,9 @@ large-scale spontaneous speech corpora (41 million words) that include a balance
 age. We employed a machine learning-powered POS tagger, showcasing accuracy on par with human annotators. Our frequency norms exhibit a significant correlation with lexical decision time (LDT) and AoA measures from external studies. KoFREN also aligns with English counterparts sourced from SUBTLEXUS - an English word frequency measure that has been frequently used in the literature. KoFREN is poised to facilitate research
 in spontaneous Contemporary Korean and can be utilized in many fields, including clinical studies of Korean patients.
 
+## Download
+- [Download here](https://www.researchgate.net/publication/381169463_KoFREN_Comprehensive_Korean_Word_Frequency_Norms_Derived_from_Large_Scale_Free_Speech_Corpora#:~:text=KoFREN,-norms%20comprise)
+
 ## How we calculated the frequency norms
 We combined three corpora of spontaneous free speech from children, young adults, and elderly adults. The corpora are available for download at [AiHub](https://aihub.or.kr) (Korean nationals only). Transcripts of participants’ everyday conversations on topics such as food and travel are included in each corpus. We then used the [Bareun Tokenizer](https://bareun.ai) to tokenize the transcribed texts to count their lemma frequencies.
 
