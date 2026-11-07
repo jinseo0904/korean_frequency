@@ -32,12 +32,24 @@ Each csv file contains the following columns. **WORD** and **POS_TAG** represent
 ## Citing the KoFREN Paper
 If you used our work, please cite our paper, accepted to the [LREC-COLING 2024 Conference](https://lrec-coling-2024.org):
 ```
-@inproceedings{kofren,
-  title        = {KoFREN: Comprehensive Korean Word Frequency Norms Derived from Large Scale Free Speech Corpora},
-  author       = {Jin-seo Kim, Anna Seo Gyeong Choi, and Sunghye Cho},
-  year         = 2024,
-  month        = {May},
-  booktitle    = {Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING)},
-  publisher    = {ACM Press},
+@inproceedings{kim-etal-2024-kofren,
+    title = "{K}o{FREN}: Comprehensive {K}orean Word Frequency Norms Derived from Large Scale Free Speech Corpora",
+    author = "Kim, Jin-seo  and
+      Choi, Anna Seo Gyeong  and
+      Cho, Sunghye",
+    editor = "Calzolari, Nicoletta  and
+      Kan, Min-Yen  and
+      Hoste, Veronique  and
+      Lenci, Alessandro  and
+      Sakti, Sakriani  and
+      Xue, Nianwen",
+    booktitle = "Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation ({LREC}-{COLING} 2024)",
+    month = may,
+    year = "2024",
+    address = "Torino, Italia",
+    publisher = "ELRA and ICCL",
+    url = "https://aclanthology.org/2024.lrec-main.866/",
+    pages = "9926--9931",
+    abstract = "Word frequencies are integral in linguistic studies, showing strong correlations with speakers' cognitive abilities and other important linguistic parameters including the Age of Acquisition (AoA). However, the formulation of credible Korean word frequency norms has been obstructed by the lack of expansive speech data and a reliable part-ofspeech (POS) tagger. In this study, we unveil Korean word frequency norms (KoFREN), derived from large-scale spontaneous speech corpora (41 million words) that include a balanced representation of gender and age. We employed a machine learning-powered POS tagger, showcasing accuracy on par with human annotators. Our frequency norms correlate significantly with external studies' lexical decision time (LDT) and AoA measures. KoFREN also aligns with English counterparts sourced from SUBTLEX{\_}US - an English word frequency measure that has been frequently used in the literature. KoFREN is poised to facilitate research in spontaneous Contemporary Korean and can be utilized in many fields, including clinical studies of Korean patients."
 }
 ```
